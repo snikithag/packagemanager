@@ -1,3 +1,4 @@
+# app.py
 import numpy as np
 
 def main():
@@ -7,4 +8,5 @@ def main():
     return int(a.sum())
 
 if __name__ == "__main__":
-    exit(main())
+    main()   # do not call exit(main())
+
